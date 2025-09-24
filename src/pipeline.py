@@ -2,6 +2,7 @@ from src.retrieval.policy_retriever import build_rule_map, chunks_to_articles
 from src.llm_client import build_article_prompt, call_llm_for_structured_result_gemini, build_subpoint_prompt, SubpointResult
 from src.retrieval.retrieval_utils import get_gdpr_paragraphs_by_article
 from src.utils.helpers import write_to_json
+from src.utils.config import EVAL_RESULT
 
 def evaluate_articles():   
     rule_map = build_rule_map()
@@ -24,4 +25,4 @@ def evaluate_articles():
 
         compiled_result.append(result)
 
-    write_to_json("verdict.json", compiled_result) #will be ui later.
+    write_to_json(EVAL_RESULT, compiled_result) #will be ui later.

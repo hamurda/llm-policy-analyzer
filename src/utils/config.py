@@ -23,4 +23,4 @@ TOP_K_PER_ARTICLE = 6
 SIM_THRESHOLD = 0.35  # semantic similarity threshold (tune)
 
 # Result file
-RESULT_OUTPUT = "out/gdpr_policy_eval.json"
+EVAL_RESULT = "out/gdpr_policy_eval.json"

@@ -1,0 +1,22 @@
+[project]
+name = "llm-policy-analyser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.5",
+    "google-genai>=1.33.0",
+    "jq>=1.10.0",
+    "jsonlines>=4.0.0",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.29",
+    "langchain-google-genai>=2.1.10",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.32",
+    "playwright>=1.55.0",
+    "requests>=2.32.5",
+    "sentence-transformers>=5.1.0",
+    "torch>=2.8.0",
+]

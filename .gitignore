@@ -7,10 +7,7 @@ scrapers/
 
 *.python-version
 
-legal_db
-vector_db
 gdpr_db
-policy_db
 notion_db
 
 knowledge_base/

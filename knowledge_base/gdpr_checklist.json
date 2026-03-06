@@ -1,0 +1,487 @@
+[
+  {
+      "article": "5",
+      "title": "Data Processing Principles",
+      "intent": "Personal data must be processed lawfully, fairly, and transparently. Collection must be limited to necessary purposes (data minimization), only for explicit legitimate purposes (purpose limitation), accurate, stored only as long as needed, and processed securely.",
+      "requirements": [
+        {
+          "clause": "5(1)(a)",
+          "text": "Processed lawfully, fairly and in a transparent manner",
+          "checklist": [
+            "Are purposes explained in plain language?",
+            "Is lawful basis linked to each purpose?",
+            "Is transparency demonstrated (no hidden use)?"
+          ]
+        },
+        {
+          "clause": "5(1)(b)",
+          "text": "Collected for specified, explicit and legitimate purposes",
+          "checklist": [
+            "Are purposes listed clearly?",
+            "Is vague or generic language avoided?"
+          ]
+        },
+        {
+          "clause": "5(1)(c)",
+          "text": "Data minimization",
+          "checklist": [
+            "Does the policy say only necessary data is collected?"
+          ]
+        },
+        {
+          "clause": "5(1)(d)",
+          "text": "Accuracy",
+          "checklist": [
+            "Does the policy explain how data is kept accurate?",
+            "Is there a way for users to correct data?"
+          ]
+        },
+        {
+          "clause": "5(1)(e)",
+          "text": "Storage limitation",
+          "checklist": [
+            "Are retention periods or criteria stated?",
+            "Is there a statement on deleting data when no longer needed?"
+          ]
+        },
+        {
+          "clause": "5(1)(f)",
+          "text": "Integrity and confidentiality",
+          "checklist": [
+            "Are security measures mentioned?",
+            "Is confidentiality emphasized?"
+          ]
+        }
+      ],
+      "triggers": [
+        "lawful processing",
+        "fair processing",
+        "transparent processing",
+        "data minimization",
+        "purpose limitation",
+        "accuracy of personal data",
+        "storage limitation",
+        "retention period",
+        "integrity and confidentiality",
+        "accountability"
+      ],
+      "examples": [
+        "we only collect the minimum information necessary to provide the service",
+        "data is used solely to improve our product",
+        "we retain account data for 12 months after inactivity",
+        "we take reasonable steps to ensure data accuracy",
+        "access controls and logging are used to protect user data"
+      ],
+      "severity": "high"
+  },
+  {
+      "article": "6",
+      "title": "Lawfulness of Processing",
+      "intent": "Processing is lawful only if it meets one of six conditions: consent, contract, legal obligation, vital interests, public task, or legitimate interests.",
+      "requirements": [
+        {
+          "clause": "6(1)(a)",
+          "text": "Consent",
+          "checklist": [
+            "Is consent mentioned as freely given, specific, informed, and unambiguous?",
+            "Is withdrawal of consent possible and explained?"
+          ]
+        },
+        {
+          "clause": "6(1)(b)",
+          "text": "Contract",
+          "checklist": [
+            "Is processing necessary for a contract or pre-contract steps?",
+            "Is this clearly explained in the policy?"
+          ]
+        },
+        {
+          "clause": "6(1)(c)",
+          "text": "Legal obligation",
+          "checklist": [
+            "Is processing based on a legal requirement mentioned?"
+          ]
+        },
+        {
+          "clause": "6(1)(d)",
+          "text": "Vital interests",
+          "checklist": [
+            "Is protection of life or vital interests cited as a basis?"
+          ]
+        },
+        {
+          "clause": "6(1)(e)",
+          "text": "Public task",
+          "checklist": [
+            "Is processing for official authority or public interest noted?"
+          ]
+        },
+        {
+          "clause": "6(1)(f)",
+          "text": "Legitimate interests",
+          "checklist": [
+            "Is legitimate interest identified?",
+            "Is balancing against user rights mentioned?"
+          ]
+        }
+      ],
+      "triggers": [
+        "consent",
+        "contract",
+        "legal obligation",
+        "vital interests",
+        "public task",
+        "legitimate interests",
+        "lawful basis"
+      ],
+      "examples": [
+        "we process your data with your consent",
+        "processing is necessary to fulfill our contract",
+        "we retain data to comply with legal obligations",
+        "we rely on legitimate interests to prevent fraud"
+      ],
+      "severity": "high"
+  },
+  {
+      "article": "12",
+      "title": "Transparent Information, Communication and Modalities",
+      "intent": "Controllers must provide clear, concise, and accessible information to data subjects about how their data is processed and how to exercise rights.",
+      "requirements": [
+        {
+          "clause": "12(1)",
+          "text": "Information in a concise, transparent, intelligible and easily accessible form",
+          "checklist": [
+            "Is the policy written in clear and plain language?",
+            "Is information structured and easy to find?"
+          ]
+        },
+        {
+          "clause": "12(2)",
+          "text": "Facilitate exercise of rights",
+          "checklist": [
+            "Does the policy explain how rights can be exercised?",
+            "Are contact channels provided for requests?"
+          ]
+        },
+        {
+          "clause": "12(3)",
+          "text": "Response timeframe",
+          "checklist": [
+            "Does the policy mention responses within 1 month?",
+            "Is there reference to possible extension for complex requests?"
+          ]
+        }
+      ],
+      "triggers": [
+        "plain language",
+        "easily accessible",
+        "concise information",
+        "how to exercise your rights",
+        "contact us for rights"
+      ],
+      "examples": [
+        "we provide this policy in plain language",
+        "you can contact our privacy team to exercise your rights",
+        "we will respond to your request within one month"
+      ],
+      "severity": "medium"
+  },
+  {
+      "article": "13",
+      "title": "Information to be Provided (Data Collected from Data Subject)",
+      "intent": "When data is collected directly, the controller must provide identity, contact details, processing purposes, lawful basis, recipients, retention, rights, and transfer details.",
+      "requirements": [
+        {
+          "clause": "13(1)(a)",
+          "text": "Identity and contact details of the controller",
+          "checklist": [
+            "Is the company identified?",
+            "Are contact details given?"
+          ]
+        },
+        {
+          "clause": "13(1)(b)",
+          "text": "DPO details (where applicable)",
+          "checklist": [
+            "Is a DPO identified?",
+            "Are DPO contact details provided?"
+          ]
+        },
+        {
+          "clause": "13(1)(c)",
+          "text": "Purposes of processing",
+          "checklist": [
+            "Are purposes explicitly listed?"
+          ]
+        },
+        {
+          "clause": "13(1)(d)",
+          "text": "Legal basis",
+          "checklist": [
+            "Is a lawful basis linked to each purpose?"
+          ]
+        },
+        {
+          "clause": "13(1)(e)",
+          "text": "Recipients",
+          "checklist": [
+            "Are recipients or categories listed (processors, third parties)?"
+          ]
+        },
+        {
+          "clause": "13(1)(f)",
+          "text": "Transfers to third countries",
+          "checklist": [
+            "Is data transfer outside the EU mentioned?",
+            "Are safeguards described (SCCs, adequacy, etc.)?"
+          ]
+        },
+        {
+          "clause": "13(2)",
+          "text": "Additional info (retention, rights, complaints)",
+          "checklist": [
+            "Is retention period/criteria provided?",
+            "Are data subject rights listed?",
+            "Is right to complain to authority included?"
+          ]
+        }
+      ],
+      "triggers": [
+        "data controller",
+        "data protection officer",
+        "purposes of processing",
+        "lawful basis",
+        "recipients",
+        "retention",
+        "supervisory authority",
+        "transfers outside EU"
+      ],
+      "examples": [
+        "our company is the data controller",
+        "you may contact our Data Protection Officer",
+        "we process your data to deliver our services",
+        "we transfer data outside the EU with SCCs"
+      ],
+      "severity": "high"
+  },
+  {
+      "article": "14",
+      "title": "Information to be Provided (Data Not Collected from Data Subject)",
+      "intent": "When data is obtained indirectly, the controller must inform about categories of data, source, and provide the same information required under Article 13.",
+      "requirements": [
+        {
+          "clause": "14(1)(d)",
+          "text": "Categories of personal data",
+          "checklist": [
+            "Are categories of collected data specified?"
+          ]
+        },
+        {
+          "clause": "14(2)(f)",
+          "text": "Source of data",
+          "checklist": [
+            "Is the source mentioned?",
+            "Is it stated if the source is publicly available?"
+          ]
+        }
+      ],
+      "triggers": [
+        "we collect information from third parties",
+        "data obtained from other sources",
+        "publicly available sources"
+      ],
+      "examples": [
+        "we may receive your data from third-party partners",
+        "we collect information from publicly available databases"
+      ],
+      "severity": "medium"
+  },
+  {
+      "article": "15",
+      "title": "Right of Access",
+      "intent": "Data subjects have the right to access their personal data and obtain confirmation, a copy, and related information.",
+      "requirements": [
+        {
+          "clause": "15(1)",
+          "text": "Access right",
+          "checklist": [
+            "Is the right of access mentioned?",
+            "Is there a way to request data copies?"
+          ]
+        },
+        {
+          "clause": "15(3)",
+          "text": "Copy of personal data",
+          "checklist": [
+            "Does the policy say data subjects can obtain a copy of their personal data?"
+          ]
+        }
+      ],
+      "triggers": [
+        "right of access",
+        "request a copy",
+        "access your data"
+      ],
+      "examples": [
+        "you have the right to access your personal data",
+        "you may request a copy of the information we hold"
+      ],
+      "severity": "medium"
+  },
+  {
+      "article": "44",
+      "title": "General Principle for Transfers",
+      "intent": "Transfers of personal data outside the EU/EEA must only occur if safeguards are in place.",
+      "requirements": [
+        {
+          "clause": "44",
+          "text": "Transfers outside EU",
+          "checklist": [
+            "Is data transfer outside the EU acknowledged?",
+            "Are safeguards explained?"
+          ]
+        }
+      ],
+      "triggers": [
+        "transfer outside EU",
+        "data may be stored in other countries",
+        "cross-border data transfer"
+      ],
+      "examples": [
+        "we may transfer your data outside the European Economic Area",
+        "data is transferred internationally with appropriate safeguards"
+      ],
+      "severity": "high"
+  },
+  {
+      "article": "45",
+      "title": "Transfers on the Basis of Adequacy",
+      "intent": "Transfers are allowed if the Commission has decided a third country ensures adequate protection.",
+      "requirements": [
+        {
+          "clause": "45(1)",
+          "text": "Adequacy decision",
+          "checklist": [
+            "Does the policy state transfers are based on adequacy decisions?"
+          ]
+        }
+      ],
+      "triggers": [
+        "adequacy decision",
+        "adequate protection",
+        "adequate safeguards"
+      ],
+      "examples": [
+        "we transfer data to countries recognized by the European Commission as providing adequate protection"
+      ],
+      "severity": "medium"
+  },
+  {
+      "article": "46",
+      "title": "Transfers Subject to Appropriate Safeguards",
+      "intent": "Where no adequacy decision exists, transfers must rely on safeguards such as SCCs, BCRs, codes of conduct, or certification.",
+      "requirements": [
+        {
+          "clause": "46(1)",
+          "text": "Appropriate safeguards",
+          "checklist": [
+            "Does the policy mention SCCs, BCRs, or other safeguards?"
+          ]
+        }
+      ],
+      "triggers": [
+        "standard contractual clauses",
+        "binding corporate rules",
+        "appropriate safeguards"
+      ],
+      "examples": [
+        "we use Standard Contractual Clauses approved by the European Commission",
+        "data is transferred under binding corporate rules"
+      ],
+      "severity": "high"
+  },
+  {
+      "article": "47",
+      "title": "Binding Corporate Rules",
+      "intent": "Intra-group transfers may be based on binding corporate rules approved by authorities.",
+      "requirements": [
+        {
+          "clause": "47(1)",
+          "text": "Binding corporate rules",
+          "checklist": [
+            "Does the policy mention binding corporate rules for intra-group transfers?"
+          ]
+        }
+      ],
+      "triggers": [
+        "binding corporate rules",
+        "BCRs"
+      ],
+      "examples": [
+        "our group companies rely on approved binding corporate rules"
+      ],
+      "severity": "medium"
+  },
+  {
+      "article": "48",
+      "title": "Transfers or Disclosures Not Authorised by Union Law",
+      "intent": "Requests for personal data by third country authorities are only recognized if based on international agreements.",
+      "requirements": [
+        {
+          "clause": "48",
+          "text": "Non-authorised requests",
+          "checklist": [
+            "Does the policy mention government requests from outside EU?",
+            "Does it say such requests require international agreement?"
+          ]
+        }
+      ],
+      "triggers": [
+        "foreign government requests",
+        "international agreement"
+      ],
+      "examples": [
+        "we only disclose data to foreign authorities if based on an international agreement"
+      ],
+      "severity": "medium"
+  },
+  {
+      "article": "49",
+      "title": "Derogations for Specific Situations",
+      "intent": "Transfers may occur exceptionally with explicit consent, contract performance, public interest, legal claims, vital interests, or public registers.",
+      "requirements": [
+        {
+          "clause": "49(1)(a)",
+          "text": "Explicit consent",
+          "checklist": [
+            "Does the policy mention transfers based on explicit consent?"
+          ]
+        },
+        {
+          "clause": "49(1)(b)",
+          "text": "Contract performance",
+          "checklist": [
+            "Does the policy mention transfers necessary for a contract?"
+          ]
+        },
+        {
+          "clause": "49(1)(c)",
+          "text": "Public interest",
+          "checklist": [
+            "Is transfer for important reasons of public interest stated?"
+          ]
+        }
+      ],
+      "triggers": [
+        "explicit consent",
+        "necessary for contract",
+        "important public interest",
+        "legal claims"
+      ],
+      "examples": [
+        "we may transfer your data outside the EU with your explicit consent",
+        "cross-border transfer may be required to perform a contract with you"
+      ],
+      "severity": "medium"
+  }
+]

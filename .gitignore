@@ -1,21 +1,11 @@
+__pycache__
 .venv
-
 .env
 
 *.ipynb
-scrapers/
-
 *.python-version
-
-gdpr_db
-notion_db
-
-knowledge_base/
-knowledge_base/legal/eu_ai_act
-knowledge_base/legal/gdpr/gdpr_rules.json
-knowledge_base/legal/gdpr/*.jsonl
 
 out/
 
-__pycache__
+
 

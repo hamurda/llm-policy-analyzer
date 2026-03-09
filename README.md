@@ -37,7 +37,7 @@ python app.py
 
 Open `http://localhost:7860` in your browser. Click **Notion Privacy Policy** to load an example, then hit **Analyze**.
 
-![GDPR Policy Analyzer](docs/screenshot.png)
+![GDPR Policy Analyzer](docs/Screenshot.png)
 
 ## Rebuilding the Knowledge Base
 

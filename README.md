@@ -26,13 +26,9 @@ Privacy Policy Text
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gdpr-policy-analyzer.git
-cd gdpr-policy-analyzer
-pip install -r requirements.txt
-
+uv sync
 cp .env.example .env # Set your OpenAI API key
-
-python app.py
+uv run app.py
 ```
 
 Open `http://localhost:7860` in your browser. Click **Notion Privacy Policy** to load an example, then hit **Analyze**.
@@ -44,7 +40,7 @@ Open `http://localhost:7860` in your browser. Click **Notion Privacy Policy** to
 The `*_embedding.json` files are checked in so the app works out of the box. If you modify the raw GDPR rules or checklist, regenerate them:
 
 ```bash
-python scripts/build_embeddings.py
+uv run scripts/build_embeddings.py
 ```
 
 This encodes each rule/clause with `all-MiniLM-L6-v2` and writes the embeddings alongside the original JSON.
